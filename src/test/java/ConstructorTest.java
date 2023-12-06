@@ -6,7 +6,7 @@ import ru.savinov.page.MainPage;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class ConstructorTest extends BasedTest{
+public class ConstructorTest extends BasedTest {
     @Test
     @DisplayName("Проверка переключения на вкладку 'Булки'")
     public void checkTabBuns() {

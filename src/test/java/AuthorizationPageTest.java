@@ -6,8 +6,6 @@ import org.junit.Test;
 import ru.savinov.api.User;
 import ru.savinov.page.*;
 
-
-
 import static com.codeborne.selenide.Selenide.*;
 
 public class AuthorizationPageTest extends BasedTest {
@@ -67,12 +65,12 @@ public class AuthorizationPageTest extends BasedTest {
 
     @After
     public void cleanData() {
-            if (user != null) {
-                user.deleteUser();
-            }
-            clearBrowserCookies();
-            clearBrowserLocalStorage();
+        if (user != null) {
+            user.deleteUser();
         }
-
+        clearBrowserCookies();
+        clearBrowserLocalStorage();
     }
+
+}
 

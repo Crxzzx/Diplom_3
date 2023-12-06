@@ -14,7 +14,7 @@ import java.util.List;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class ProfileTest extends BasedTest{
+public class ProfileTest extends BasedTest {
     List<User> users = new ArrayList<>();
     private User user;
 

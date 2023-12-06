@@ -11,7 +11,7 @@ import java.util.List;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class MainPageTest extends BasedTest{
+public class MainPageTest extends BasedTest {
     List<User> users = new ArrayList<>();
     private User user;
 

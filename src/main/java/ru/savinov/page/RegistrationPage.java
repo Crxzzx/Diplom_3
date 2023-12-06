@@ -28,14 +28,14 @@ public class RegistrationPage {
 
     @Step("Заполнение поля Имя")
     public RegistrationPage setNameInput(String name) {
-        nameInput.sendKeys(Keys.SHIFT , Keys.HOME , Keys.DELETE);
+        nameInput.sendKeys(Keys.SHIFT, Keys.HOME, Keys.DELETE);
         nameInput.sendKeys(name);
         return this;
     }
 
     @Step("Заполнение поля Email")
     public RegistrationPage setEmailInput(String email) {
-        emailInput.sendKeys(Keys.SHIFT , Keys.HOME , Keys.DELETE);
+        emailInput.sendKeys(Keys.SHIFT, Keys.HOME, Keys.DELETE);
         emailInput.sendKeys(email);
         return this;
     }
@@ -44,7 +44,7 @@ public class RegistrationPage {
     public RegistrationPage setPasswordInput(String password) {
         passwordInput.click();
         passwordInput.clear();
-        passwordInput.sendKeys(Keys.SHIFT , Keys.HOME , Keys.DELETE);
+        passwordInput.sendKeys(Keys.SHIFT, Keys.HOME, Keys.DELETE);
         passwordInput.sendKeys(password);
         return this;
     }
@@ -78,6 +78,6 @@ public class RegistrationPage {
         return this;
     }
 
-    }
+}
 
 
